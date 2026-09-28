@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color: #11263e;
+  background: radial-gradient(circle at 8% -20%, #dff5f4 0%, #f4f7fa 38%, #edf2f6 100%);
+  font-family: Manrope, system-ui, sans-serif;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #edf2f6;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #c3d0dc;
+  border-radius: 999px;
+}
